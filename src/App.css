@@ -1,0 +1,30 @@
+.Header {
+  background-color: #fff;
+  border-bottom: solid 2px rgb(209, 209, 209);
+}
+
+.Sider{
+  /* background-color: #fff9f8 !important; */
+  background-color: #fff !important;
+  border-right: solid 2px rgb(209, 209, 209);
+  /* border-radius: 5px; */
+}
+
+.Content {
+  background-color: #fff9f8;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  height: 90vh;
+  overflow: visible !important;
+}
+
+.Heading {
+  background-color: #fff;
+  color: #000000;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 0 35px !important;
+  line-height: 60px !important;
+}

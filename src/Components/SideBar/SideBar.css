@@ -1,0 +1,12 @@
+.SideBarContainer{
+    padding-top: 10%;
+    padding: auto;
+    text-align: center;
+}
+
+.Timeline{
+    padding: 35px;
+    /* padding-top: 20%; */
+    /* padding: auto; */
+    text-align: left;
+}

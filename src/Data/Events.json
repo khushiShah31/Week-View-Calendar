@@ -1,0 +1,68 @@
+[
+    {
+        "id" : "1",
+        "title": "Meeting",
+        "date": "24/07/2023",
+        "duration": "1 hour"
+    },
+    {
+        "id" : "2",
+        "title": "Meeting",
+        "date": "25/07/2023",
+        "duration": "2 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "25/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "26/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "26/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "27/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "21/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "22/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "22/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "23/07/2023",
+        "duration": "2.5 hours"
+    },
+    {
+        "id" : "3",
+        "title": "Movie",
+        "date": "23/07/2023",
+        "duration": "2.5 hours"
+    }
+]
