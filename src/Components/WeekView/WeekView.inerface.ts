@@ -12,5 +12,6 @@ export interface IEvent {
 
 export interface IProps{
     events : IEvent[]
+    week : number
 }
 

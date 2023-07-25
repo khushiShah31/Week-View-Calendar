@@ -4,6 +4,12 @@
 .Header {
     background-color: #fff;
     border-bottom: solid 2px rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+  }
+
+  .Button{
+    margin: 5%;
   }
   
   .Sider{

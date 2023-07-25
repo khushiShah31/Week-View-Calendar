@@ -15,9 +15,6 @@ const SideBar = () => {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-
-
-
     const showModal = () => {
         setIsModalOpen(true);
     };
@@ -32,7 +29,6 @@ const SideBar = () => {
     };
 
     const onFinish = (values: IFormData) => {
-        console.log(values);
         if (values.date < new Date()) {
             messageApi.error('Event can not be create in past!');
             return
@@ -44,8 +40,6 @@ const SideBar = () => {
             duration: values.duration,
             id: (Math.random() * 100).toString()
         })
-        console.log(events, "----> all events");
-
         messageApi.success('Event Created Successfully!');
         setIsModalOpen(false);
     };
@@ -58,13 +52,11 @@ const SideBar = () => {
 
     const currentDate = moment()
     const CurrentMonth = currentDate.month();
-    events.map((event)=>{
+    events.forEach((event)=>{
     const eventDate = moment(event.date, "DD/MM/YYYY")
     const eventMonth = eventDate.month()
     if(CurrentMonth === eventMonth && eventDate > currentDate)
     items.push({children : `${event.title} for ${event.duration} on ${eventDate.format('ddd Do MMMM')}`})
-
-
     })
 
     return (
